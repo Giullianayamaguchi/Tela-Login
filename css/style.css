@@ -206,7 +206,7 @@ input:-webkit-autofill{
 }
 .sign-up-js .first-content .first-colum,
 .sign-up-js .first-content .second-colum{
-    transition: 5s;
+    transition: 4s;
     z-index: 11;
     
 }
