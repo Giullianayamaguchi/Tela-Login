@@ -1,0 +1,111 @@
+
+.shc {
+    /*remove a margem das colunas e row*/
+    margin: 0;
+    padding: 0;
+}
+
+#Barra {
+    border-bottom: 1px black solid;
+    width: 100%;
+    height: 16.5%;
+    position:absolute;
+    top:1px;
+    left:1px;
+    text-align: center;
+
+}
+#Cadastro {
+    width: -10px;
+    height: -100px;
+    position:relative;
+    top:150px;
+    left:50px;
+}
+#Opcoes{
+    position:absolute;
+    top:350px;
+    left:-35px;
+
+}
+#Btn-Opcao{
+    top: 100%;
+    left: 75%;
+}
+#tabela-familia{
+    margin-top: 2%;
+}
+#ModalLabel{
+    margin-left: 94%;
+}
+/*=====================================================================================================================/*
+    Fonte: Style.css 
+    Motivo: Responsável pelo layout da pagina e as animações correspondentes.
+    Data: 18/04/2023
+    Programadorre(As): Giulliana Yamaguchi Tavares
+/*=====================================================================================================================*/
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background-color: rgb(0, 161, 164);
+    }
+    
+    @media (min-width: 300px) {
+    .gradient-form {
+    height: 85vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+
+.input-form{
+    background-repeat: no-repeat;
+    background-position: 10px;
+    padding-left: 50px;
+    margin-top: 2%;
+    background-size: 5%;
+}
+.Signup{
+    position: absolute;
+}
+.Signin{
+    position: absolute;
+}
+.visible{
+    opacity: 0;
+    z-index: -1;
+}
+
+.senha{
+    background-image: url(../img/password.png);
+}
+.usuario{
+    background-image: url(../img/user.png);
+}
+.email{
+    background-image: url(../img/email.png);
+}
+.ender{
+    background-image: url(../img/endereço.png);
+}
+.cargo{
+    background-image: url(../img/cargo.png);
+}
+.button{
+    width:  100%;
+}
+#textocenter{
+    margin: auto;   
+    text-align: center;
+    align-items: center;
+}
+#corpologin{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+}
