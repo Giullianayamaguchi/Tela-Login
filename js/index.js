@@ -67,9 +67,12 @@ function Senha(){
     Programadores(As):  Giulliana Yamaguchi
 ====================================================================================================*/
 function Login(){
-    cmsg += 'Campo obrigatorios não preenchidos:'
+    
+    Email()
+    Senha()
 
     if(email == '' || senha == ''){ 
+        cmsg += 'Campo obrigatorios não preenchidos:'
         if(email == ''){
             cmsg += ' Email,'
         }
@@ -79,7 +82,8 @@ function Login(){
         cmsg = cmsg.substring(0,cmsg.length-1);
     }
     else{
-        cmsg += 'Acesso Permitido'
+        cmsg = 'Acesso Permitido'
+        window.location.href = 'CadProd.html'
     }
     alert(cmsg);
 }
@@ -130,3 +134,4 @@ function Cadastrando(){
     }
     alert(cmsg);
 }
+
