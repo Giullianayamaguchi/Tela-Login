@@ -1,0 +1,71 @@
+-************************** Version 14 ***************************-
+
+///// andamento PHP /////
+
+ajustes
+    customizar validações
+
+
+-- cadastro
+customizar validações
+
+-- CadProd
+customizar validações
+
+-- contato 
+customizar validações
+
+-- login
+customizar validações
+
+-- recuperarsenha 
+customizar validações
+
+
+///// andamento HTML /////
+
+ajustes
+    colocar tela de informações no final da pag
+    organizar layout
+    adicionar conteúdo
+
+
+-- cadastro
+colocar tela de informações no final da pag
+
+-- CadProd
+organizar layout
+
+-- Confirmcontato
+colocar tela de informações no final da pag
+
+-- contato 
+colocar tela de informações no final da pag
+
+-- ListProd
+colocar tela de informações no final da pag
+organizar layout
+
+-- ListUser
+colocar tela de informações no final da pag
+organizar layout
+
+-- login
+colocar tela de informações no final da pag
+
+-- Produto
+adicionar conteúdo
+colocar tela de informações no final da pag
+
+-- Quemsomos
+colocar tela de informações no final da pag
+
+-- recuperarsenha 
+colocar tela de informações no final da pag 
+
+-- trocas 
+colocar tela de informações no final da pag
+
+-- tela inicial ao entrar 
+adicionar conteúdo
+colocar tela de informações no final da pag
